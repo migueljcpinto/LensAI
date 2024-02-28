@@ -70,7 +70,6 @@ module.exports = {
       },
       backgroundImage: {
         "purple-gradient": "url('/assets/images/gradient-bg.svg')",
-        banner: "url('/assets/images/banner-bg.png')",
       },
       borderRadius: {
         lg: "var(--radius)",
