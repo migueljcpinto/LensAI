@@ -14,8 +14,8 @@ const Home = async ({ searchParams }: SearchParamProps) => {
 
   return (
     <>
-      <section className="h-95 relative w-full overflow-hidden bg-white flex items-center justify-center sm:flex-center h-72 flex-col gap-4 rounded-[20px] border bg-cover bg-no-repeat p-10">
-        <div className="absolute inset-0 w-full h-full bg-white z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
+      <section className="sm:flex-center hidden h-95 relative w-full overflow-hidden bg-white items-center justify-center  h-72 flex-col gap-4 rounded-[20px] border bg-cover bg-no-repeat p-10">
+        <div className="absolute inset-0 w-full h-full bg-slate-100 z-20 [mask-image:linear-gradient(transparent,white)] pointer-events-none" />
         <Boxes />
         <h1 className={cn("md:text-4xl text-xl text-dark-600 relative z-20")}>
           Unleash Your Creative Vision with LensAI
